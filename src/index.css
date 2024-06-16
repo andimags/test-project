@@ -1,0 +1,27 @@
+:root {
+    --white: white;
+    --black: rgb(9 9 11);
+    --light-grey: rgb(236, 236, 236);
+    --blue: rgb(2 132 199);
+    --green: rgb(22 163 74);
+    --orange: rgb(245 158 11);
+    --base-font: 16px;
+}
+
+* {
+    font-size: var(--base-font);
+    color: var(--black);
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+/* section {
+    background-color: var(--light-grey);
+}
+
+nav {
+    background-color: var(--white);
+}
+
+#image-logo {
+    fill: var(--blue);
+} */
