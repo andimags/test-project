@@ -1,9 +1,11 @@
 :root {
     --white: white;
     --black: rgb(9 9 11);
-    --light-grey: rgb(244 244 245);
+    --light-grey: rgb(248 249 251);
     --grey: rgb(161 161 170);
-    --blue: rgb(37 99 235);
+    --dark-grey: rgb(115 115 115);
+    --blue: rgb(0 126 249);
+    --hover-blue: rgb(4, 114, 224);
     --green: rgb(22 163 74);
     --orange: rgb(245 158 11);
     --font-base: 16px;
@@ -18,12 +20,18 @@
     font-weight: var(--font-bold);
 }
 
+/* Font weights */
 .font-extrabold {
     font-weight: var(--font-extrabold);
 }
 
+/* Text colors */
 .text-primary {
     color: var(--black);
+}
+
+.hover-text-primary:hover {
+    color: var(--dark-grey);
 }
 
 .text-accent {
@@ -38,8 +46,13 @@
     color: var(--white);
 }
 
+/* Bg colors */
 .bg-primary {
     background-color: var(--blue);
+}
+
+.hover-bg-primary:hover {
+    background-color: var(--hover-blue);
 }
 
 .bg-secondary {
@@ -48,4 +61,8 @@
 
 .bg-base {
     background-color: var(--white);
+}
+
+.hover-bg-base:hover {
+    background-color: var(--light-grey);
 }
