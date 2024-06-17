@@ -1,27 +1,51 @@
 :root {
     --white: white;
     --black: rgb(9 9 11);
-    --light-grey: rgb(236, 236, 236);
-    --blue: rgb(2 132 199);
+    --light-grey: rgb(244 244 245);
+    --grey: rgb(161 161 170);
+    --blue: rgb(37 99 235);
     --green: rgb(22 163 74);
     --orange: rgb(245 158 11);
-    --base-font: 16px;
+    --font-base: 16px;
+    --font-bold: 700;
+    --font-extrabold: 800;
 }
 
 * {
-    font-size: var(--base-font);
+    font-size: var(--font-base);
     color: var(--black);
     font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-weight: var(--font-bold);
 }
 
-/* section {
+.font-extrabold {
+    font-weight: var(--font-extrabold);
+}
+
+.text-primary {
+    color: var(--black);
+}
+
+.text-accent {
+    color: var(--blue);
+}
+
+.text-secondary {
+    color: var(--grey);
+}
+
+.text-base {
+    color: var(--white);
+}
+
+.bg-primary {
+    background-color: var(--blue);
+}
+
+.bg-secondary {
     background-color: var(--light-grey);
 }
 
-nav {
+.bg-base {
     background-color: var(--white);
 }
-
-#image-logo {
-    fill: var(--blue);
-} */
