@@ -10,6 +10,7 @@
     --orange: rgb(245 158 11);
     --font-base: 16px;
     --font-bold: 700;
+    --font-small: 12px;
     --font-extrabold: 800;
 }
 
@@ -18,6 +19,7 @@
     color: var(--black);
     font-family: Manrope, Arial, Helvetica, sans-serif;
     font-weight: var(--font-bold);
+    box-sizing: border-box !important;
 }
 
 /* Font weights */
@@ -65,4 +67,10 @@
 
 .hover-bg-base:hover {
     background-color: var(--light-grey);
+}
+
+@media only screen and (max-width: 769px) {
+    * {
+        font-size: var(--font-small);
+    }
 }

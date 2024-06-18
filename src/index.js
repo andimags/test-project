@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
         rewind: true,
         gap: "1rem",
         padding: "2rem",
-        marginRight: "10rem",
+        margin: "2rem",
+        // width: "80%",
     });
 
     splide.mount();
