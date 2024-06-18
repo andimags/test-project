@@ -69,6 +69,7 @@
     background-color: var(--light-grey);
 }
 
+/* Small screens */
 @media only screen and (max-width: 769px) {
     * {
         font-size: var(--font-small);
